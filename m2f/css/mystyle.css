@@ -2,10 +2,13 @@
 
 /*desktop */
 
+p {
+    align:center;
+}
+
 @media (min-width:992px){
     .c1l, c2l, c3l {
         width:33.3%;
-        float:left;
     }
 }
 
