@@ -2,8 +2,9 @@
 
 /*desktop */
 
-header {
+p {
     align:center;
+    background-color:red;
 }
 
 div {
