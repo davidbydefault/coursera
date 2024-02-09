@@ -1,32 +1,73 @@
 /* my styles as solutions for m2*/
 
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align:center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    display: inline-block;
+    position: relative;
+}
+
+.Title {
+    position:absolute;
+    text-align: center;
+    right: 0px;
+    top: -20px;
+    border: 3px solid black;
+    background-color: purple;
+    font-weight: bold;
+    width: 100px;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.c1, .c2, .c3{
+    background-color: gray;
+}
+
 /*desktop */
 
-p {
-    align:center;
-    background-color:red;
-}
-
-div {
-    display:inline;
-}
-
 @media (min-width:992px){
-    .c1l, c2l, c3l {
-        width:33.3%;
+    .c1, .c2, .c3 {
+        width:33%;
+        padding: 10px;
+        border: 1px solid black;
     }
 }
 
 /* tablets */
 
 @media (min-width:768px) and (max-width:991px){
-    .c1l, c2l, c3l {
-        width:33.3%;
+    .c1, .c2 {
+        width:49%;
+        padding: 10px;
+        border: 1px solid black;}
+    
+    .c3 {
+        width:98.5%;
+        padding: 10px;
+        border:1px solid black;
+        margin-top: 5px;
+
     }
 }
 
 /*mobile section*/
 
 @media (max-width:767px){
-    style here
-}
+    .c1, .c2, .c3{
+    width:100%;
+    padding: 10px;
+    border:1px solid black;
+    margin-top: 10px;
+}}
