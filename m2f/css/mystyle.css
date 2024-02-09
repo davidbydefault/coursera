@@ -3,7 +3,10 @@
 /*desktop */
 
 @media (min-width:992px){
-    style here
+    .c1l, c2l, c3l {
+        width:33.3%;
+        float:left;
+    }
 }
 
 /* tablets */
