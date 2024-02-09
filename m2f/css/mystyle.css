@@ -2,8 +2,12 @@
 
 /*desktop */
 
-p {
+header {
     align:center;
+}
+
+div {
+    display:inline;
 }
 
 @media (min-width:992px){
