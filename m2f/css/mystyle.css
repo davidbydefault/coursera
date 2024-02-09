@@ -1,0 +1,19 @@
+/* my styles as solutions for m2*/
+
+/*desktop */
+
+@media (min-width:992px){
+    style here
+}
+
+/* tablets */
+
+@media (min-width:768px) and (max-width:991px){
+    style here
+}
+
+/*mobile section*/
+
+@media (max-width:767px){
+    style here
+}
