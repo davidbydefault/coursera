@@ -15,7 +15,9 @@ p {
 /* tablets */
 
 @media (min-width:768px) and (max-width:991px){
-    style here
+    .c1l, c2l, c3l {
+        width:33.3%;
+    }
 }
 
 /*mobile section*/
