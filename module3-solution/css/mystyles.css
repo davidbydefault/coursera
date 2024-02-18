@@ -2,19 +2,20 @@
     background-color: blueviolet;
     color: red;
 }
-#navbar-brand{
+.navbar-brand #mybrand{
     color: red;
     font-weight: bold;
     border: 4px solid;
 }
-ul{
-    text-align: center;
-    background-color: yellow;
-}
 
-row{
+.row{
     margin-left: 15px;
     margin-right: 15px;
     height: 1000px;
     background-color: blue;
+}
+
+.nav > li {
+    text-align: center;
+    background-color: yellow;
 }
