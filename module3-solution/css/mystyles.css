@@ -5,7 +5,6 @@
 #.navbar, .navbar-default{
     color: red;
     font-weight: bold;
-    border: 4px solid;
 }
 
 p{
@@ -18,5 +17,5 @@ p{
 .nav > li {
     text-align: center;
     background-color: yellow;
-    border: 4px solid black;
+    border: 1px solid black;
 }
