@@ -2,13 +2,13 @@
     background-color: blueviolet;
     color: red;
 }
-#mybrand{
+#.navbar, .navbar-default{
     color: red;
     font-weight: bold;
     border: 4px solid;
 }
 
-#myrowtobecolored{
+p{
     margin-left: 15px;
     margin-right: 15px;
     height: 1000px;
