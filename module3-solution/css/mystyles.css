@@ -11,7 +11,6 @@
 p{
     margin-left: 15px;
     margin-right: 15px;
-    height: 1000px;
 }
 
 .nav > li {
@@ -28,5 +27,5 @@ h2{
 .col-xs-12{
     background-color: gray;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
