@@ -2,7 +2,7 @@
     background-color: blueviolet;
     color: red;
 }
-.navbar-default .navbar-brand #mybrand{
+#mybrand{
     color: red;
     font-weight: bold;
 }
