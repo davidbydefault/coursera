@@ -3,7 +3,7 @@
     color: red;
 }
 
-.navbar-default .navbar-brand #mybrand{
+.navbar .navbar-default .navbar-brand #mybrand{
     color: red;
     font-weight: bold;
 }
