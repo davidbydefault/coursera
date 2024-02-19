@@ -1,5 +1,5 @@
 #header-nav{
-    background-color: blueviolet;
+    background-color: gray;
     color: red;
 }
 
@@ -12,11 +12,17 @@ p{
     margin-left: 15px;
     margin-right: 15px;
     height: 1000px;
-    background-color: blue;
+    background-color: gray;
 }
 
 .nav > li {
     text-align: center;
-    background-color: yellow;
+    background-color:yellow;
     border: 1px solid black;
+}
+
+h2{
+    text-align: center;
+    background-color: gray;
+    font-weight: bold;
 }
