@@ -64,6 +64,6 @@ var firstLetter = names[i].charAt(0).toLowerCase();
     // helloSpeaker.xxxx
     helloSpeaker.speak();
   }
-}
+};
 })(window);
 
