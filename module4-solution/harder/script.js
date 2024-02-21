@@ -59,11 +59,11 @@ var firstLetter = names[i].charAt(0).toLowerCase();
   // name in the loop.
   if (firstLetter == 'j') {
     // byeSpeaker.xxxx
-    byeSpeaker.speak()
+    byeSpeaker.speak();
   } else {
     // helloSpeaker.xxxx
-    helloSpeaker.speak()
+    helloSpeaker.speak();
   }
 }
-}(window);
+})(window);
 
