@@ -1,4 +1,4 @@
-(function(window){
+(function(){
   // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -59,10 +59,10 @@ var firstLetter = names[i].charAt(0).toLowerCase();
   // name in the loop.
   if (firstLetter == 'j') {
     // byeSpeaker.xxxx
-    byeSpeaker.speak();
+    byeSpeaker.speak(names[i]);
   } else {
     // helloSpeaker.xxxx
-    helloSpeaker.speak();
+    helloSpeaker.speak(names[i]);
   }
 };
 })(window);
