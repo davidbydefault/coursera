@@ -122,6 +122,7 @@ function buildAndShowHomeHTML (categories) {
          '"'+chosenCategoryShortName+'"')
       console.log(chosenCategoryShortName)
       console.log(homeHtml)
+      console.log(homeHtmlToInsertIntoMainPage)
 
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
