@@ -118,8 +118,8 @@ function buildAndShowHomeHTML (categories) {
       //
       // var homeHtmlToInsertIntoMainPage = ....
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,
-        "specials-tile.short_name",
-         "'"+chosenCategoryShortName+"'")
+        "short_name",
+         '"'+chosenCategoryShortName+'"')
       console.log(chosenCategoryShortName)
       console.log(homeHtml)
 
